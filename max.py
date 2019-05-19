@@ -1,6 +1,7 @@
 #|----------------------------------|
 #| Code geschreven door:            |
 #| Esther Bron en Bastiaan van Dam
+#| Voor Max
 #|----------------------------------|
 
 # Import libraries:
