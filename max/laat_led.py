@@ -1,9 +1,7 @@
 from gpiozero import LED
 from time import sleep
-
-led = LED(3)
  
-while True:
+def knipperen(led):
     for I in range(0,4):
         led.on()
         sleep(0.05)
