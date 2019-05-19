@@ -5,6 +5,7 @@
 
 cd /
 cd home/pi/Documents/projectmax
-sudo git --git-dir=/home/pi/Documents/projectmax/.git pull
+sudo -u pi -i git --git-dir=/home/pi/Documents/projectmax/.git --work-tree=/home/pi/Documents/project max fetch origin
+sudo -u pi -i git --git-dir=/home/pi/Documents/projectmax/.git --work-tree=/home/pi/Documents/projectmax/ pull
 sudo python max.py
 cd / 
