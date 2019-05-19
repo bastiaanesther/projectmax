@@ -5,6 +5,6 @@
 
 cd /
 cd home/pi/Documents/projectmax
-sudo git pull
+sudo git --git-dir=/home/pi/Documents/projectmax/.git pull
 sudo python max.py
 cd / 
