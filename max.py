@@ -1,7 +1,6 @@
 #|----------------------------------|
 #| Code geschreven door:            |
 #| Esther Bron en Bastiaan van Dam
-#| Ik hoop dat dit werkt nu!
 #|----------------------------------|
 
 # Import libraries:
