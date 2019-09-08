@@ -10,7 +10,7 @@ while ! ping -c 1 -W 1 github.com; do
 	COUNTER=$((COUNTER + 1))
 	echo $COUNTER
 
-	if $COUNTER>30; then 
+	if $COUNTER > 30; then 
 		break
 	fi 
 done
