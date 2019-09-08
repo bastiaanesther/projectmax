@@ -7,7 +7,7 @@ while ! ping -c 1 -W 1 github.com; do
 	echo "Wachten op github.com - Mogelijk nog niet verbonden met internet"
 	sleep 1
 
-	COUNTER=$[COUNTER+1]
+	COUNTER=$((COUNTER + 1))
 	echo $COUNTER
 
 	if $COUNTER>30; then 
